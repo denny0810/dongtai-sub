@@ -54,15 +54,13 @@ proxies:
       headers:
         Host: www.bing.com
   - name: '[Hysteria2] group->v2ray Hysteria2节点3-ipv6'
-    server: '[2a14:7584:d04a::a]'
-    port: 50022
+    server: '[2a14:7583:295c::a]'
+    port: 11130
     type: hysteria2
     password: dongtaiwang.com
     auth: dongtaiwang.com
     skip-cert-verify: true
-    sni: apple.com
-    alpn:
-      - h3
+    sni: www.microsoft.com
     insecure: '1'
   - name: '[SS] group->ss SS节点-ipv6'
     server: 2a14:7584:d0a1::a
