@@ -26,19 +26,19 @@ dns:
       - 240.0.0.0/4
 proxies:
   - name: '[VLESS] group->v2ray VLESS节点1-xhttp-reality'
-    server: 157.254.223.64
-    port: 23000
+    server: 111.243.102.83
+    port: 34500
     type: vless
-    uuid: bcb13ecb-4f63-4257-ae01-ec5aeaa613a5
+    uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
     skip-cert-verify: true
     encryption: none
     security: reality
-    sni: mxj.myanimelist.net
+    sni: 'www.lovelive-anime.jp '
     fp: chrome
-    pbk: dJFLqPCinyadJxJk7zA_DwBOEAvexvm7AZT2Pw84_EY
-    sid: 955275866feece09
+    pbk: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
+    sid: 3a1381d1b2cc9e19
     spx: '%2F'
-    path: '%2Falvin9999.com'
+    path: '%2FZTwhzkrWeLnk5ARp8SsoVlVMGn6cSDq8CElbAniRQ9dMR'
   - name: '[Vmess] VMESS节点2-ipv6'
     server: 2a14:7584:d0a2::a
     port: 23456
