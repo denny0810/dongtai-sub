@@ -26,7 +26,7 @@ dns:
       - 240.0.0.0/4
 proxies:
   - name: '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-    server: 111.243.102.83
+    server: 111.243.110.11
     port: 18255
     type: vless
     uuid: 58698812-5016-458c-9b21-6e33d575f84d
