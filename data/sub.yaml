@@ -26,7 +26,7 @@ dns:
       - 240.0.0.0/4
 proxies:
   - name: '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-    server: 195.154.56.101
+    server: 62.210.24.143
     port: 32202
     type: vless
     uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
@@ -53,7 +53,7 @@ proxies:
       headers:
         Host: www.bing.com
   - name: '[Hysteria2] group->v2ray Hysteria2节点'
-    server: 195.154.54.131
+    server: 62.210.25.116
     port: 40022
     type: hysteria2
     password: dongtaiwang.com
