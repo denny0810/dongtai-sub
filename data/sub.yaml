@@ -53,7 +53,7 @@ proxies:
       headers:
         Host: www.bing.com
   - name: '[Hysteria2] group->v2ray Hysteria2节点'
-    server: 62.210.25.116
+    server: 62.210.30.179
     port: 40022
     type: hysteria2
     password: dongtaiwang.com
