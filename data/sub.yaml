@@ -38,20 +38,20 @@ proxies:
     pbk: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
     sid: f57d8f26
     path: '%2FG3EEoH63'
-  - name: '[Vmess] VMESS节点2-ipv6'
-    server: 2001:bc8:32d7:225::1
-    port: 23456
+  - name: '[Vmess] vmess-ws-warp'
+    server: 2a14:7584:d117::a
+    port: 27802
     type: vmess
-    uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
+    uuid: b9887ee9-606b-4665-a4ea-7443ca049a68
     alterId: '0'
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /alvin9999.com
+      path: /github.com/Alvin9999-newpac/fanqiang
       headers:
-        Host: www.bing.com
+        Host: ''
   - name: '[Hysteria2] group->v2ray Hysteria2节点'
     server: 163.172.113.118
     port: 40022
@@ -63,17 +63,17 @@ proxies:
     insecure: '1'
     mport: 41000-42000
   - name: '[SS] group->ss SS节点-ipv6'
-    server: 2001:bc8:32d7:225::2
-    port: 12345
+    server: 2a14:7584:d118::a
+    port: 11111
     type: ss
     cipher: aes-256-gcm
-    password: alvin9999.com
+    password: github.com/Alvin9999-newpac/fanqiang
 proxy-groups:
   - name: 节点选择
     type: select
     proxies:
       - '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-      - '[Vmess] VMESS节点2-ipv6'
+      - '[Vmess] vmess-ws-warp'
       - '[Hysteria2] group->v2ray Hysteria2节点'
       - '[SS] group->ss SS节点-ipv6'
       - 自动选择
@@ -85,7 +85,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-      - '[Vmess] VMESS节点2-ipv6'
+      - '[Vmess] vmess-ws-warp'
       - '[Hysteria2] group->v2ray Hysteria2节点'
       - '[SS] group->ss SS节点-ipv6'
 rules:
