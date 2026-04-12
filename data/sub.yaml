@@ -38,11 +38,11 @@ proxies:
     pbk: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
     sid: f57d8f26
     path: '%2FG3EEoH63'
-  - name: '[Vmess] vmess-ws'
-    server: 2a14:7584:d118::a
-    port: 10736
+  - name: '[Vmess] vmess-ipv6'
+    server: 2a14:7584:d117::a
+    port: 27802
     type: vmess
-    uuid: 2b8e0bfe-0fb2-475b-91db-824b2f4e9a1b
+    uuid: b9887ee9-606b-4665-a4ea-7443ca049a68
     alterId: '0'
     cipher: auto
     tls: false
@@ -73,7 +73,7 @@ proxy-groups:
     type: select
     proxies:
       - '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-      - '[Vmess] vmess-ws'
+      - '[Vmess] vmess-ipv6'
       - '[Hysteria2] group->v2ray Hysteria2节点'
       - '[SS] group->ss SS节点-ipv6'
       - 自动选择
@@ -85,7 +85,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-      - '[Vmess] vmess-ws'
+      - '[Vmess] vmess-ipv6'
       - '[Hysteria2] group->v2ray Hysteria2节点'
       - '[SS] group->ss SS节点-ipv6'
 rules:
