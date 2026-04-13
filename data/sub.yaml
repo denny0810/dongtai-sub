@@ -26,18 +26,18 @@ dns:
       - 240.0.0.0/4
 proxies:
   - name: '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
-    server: 62.210.24.143
-    port: 32202
+    server: 178.18.147.163
+    port: 15530
     type: vless
-    uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+    uuid: ac121f97-544b-47b3-bf91-eca9c45db548
     skip-cert-verify: true
     encryption: none
     security: reality
-    sni: www.amazon.com
+    sni: www.microsoft.com
     fp: chrome
-    pbk: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
-    sid: f57d8f26
-    path: '%2FG3EEoH63'
+    pbk: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+    sid: aa45df0f
+    path: '%2Fgithub.com%2FAlvin9999-newpac%2Ffanqiang'
   - name: '[Vmess] vmess-ipv6'
     server: 2a14:7584:d117::a
     port: 27802
