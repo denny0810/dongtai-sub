@@ -52,16 +52,15 @@ proxies:
       path: /github.com/Alvin9999-newpac/fanqiang
       headers:
         Host: ''
-  - name: '[Hysteria2] group->v2ray Hysteria2节点'
-    server: 163.172.113.118
-    port: 40022
+  - name: '[Hysteria2] group->v2ray hysteria2'
+    server: 83.243.86.103
+    port: 12855
     type: hysteria2
-    password: dongtaiwang.com
-    auth: dongtaiwang.com
+    password: github.com%2FAlvin9999-newpac%2Ffanqiang
+    auth: github.com%2FAlvin9999-newpac%2Ffanqiang
     skip-cert-verify: true
     sni: www.microsoft.com
     insecure: '1'
-    mport: 41000-42000
   - name: '[SS] group->ss SS节点-ipv6'
     server: 2a14:7584:d118::a
     port: 11111
@@ -74,7 +73,7 @@ proxy-groups:
     proxies:
       - '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
       - '[Vmess] vmess-ipv6'
-      - '[Hysteria2] group->v2ray Hysteria2节点'
+      - '[Hysteria2] group->v2ray hysteria2'
       - '[SS] group->ss SS节点-ipv6'
       - 自动选择
       - DIRECT
@@ -86,7 +85,7 @@ proxy-groups:
     proxies:
       - '[VLESS] group->v2ray VLESS-xhttp-Reality-Vision'
       - '[Vmess] vmess-ipv6'
-      - '[Hysteria2] group->v2ray Hysteria2节点'
+      - '[Hysteria2] group->v2ray hysteria2'
       - '[SS] group->ss SS节点-ipv6'
 rules:
   - DOMAIN,clash.razord.top,DIRECT
